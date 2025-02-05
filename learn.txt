@@ -19,3 +19,6 @@ install untuk dto :
 - npm i class-validator class-transformer
 
 Tambahkan "ValidationPipe" untuk stiap create dan update yang ada @Body. sebagai validasi data yang masuk harus sesuai dengan yang di definisikan di DTO.
+
+
+tambahkan ini "NotFoundException" untuk memunculkan error ketika menggunakan method GET.
