@@ -10,3 +10,12 @@ create
 
 1. Set up controller
 2. Set up service
+
+Tambahkan "ParseIntPipe" untuk stiap yang ada id, supaya muncul error kalo salah id nya.
+
+Create Dto cuman di tambahkan di create, update
+
+install untuk dto : 
+- npm i class-validator class-transformer
+
+Tambahkan "ValidationPipe" untuk stiap create dan update yang ada @Body. sebagai validasi data yang masuk harus sesuai dengan yang di definisikan di DTO.
