@@ -6,4 +6,7 @@ create
  - nest g module users 
  - nest g controller users 
  - nest g service users 
- - nest g test users 
+ 
+
+1. Set up controller
+2. Set up service
