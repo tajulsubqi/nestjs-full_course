@@ -22,3 +22,28 @@ Tambahkan "ValidationPipe" untuk stiap create dan update yang ada @Body. sebagai
 
 
 tambahkan ini "NotFoundException" untuk memunculkan error ketika menggunakan method GET.
+
+
+Rest API
+
+install prisma: 
+- npm i prisma -D
+
+tiap kali model nya diubah harus migrate lagi
+- npx prisma migrate dev --name name_change
+
+name nya sesuaikan apa yang diubah, kalo untuk awal kasi init aja
+
+buatkan module untuk database supaya conect prismaClient.
+- nest g module database
+
+
+untuk membuat satu resource lengkap employees,
+- nest g resource employees
+
+
+employee
+
+- mulai dengan module dulu import modul       database nya.
+
+- di bagian controller employee ganti yang dto dengan prisma dari prisma/client cek aja di employee.controllernya untuk POST dan UPDATE.
