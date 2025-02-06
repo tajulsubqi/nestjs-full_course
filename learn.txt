@@ -24,7 +24,7 @@ Tambahkan "ValidationPipe" untuk stiap create dan update yang ada @Body. sebagai
 tambahkan ini "NotFoundException" untuk memunculkan error ketika menggunakan method GET.
 
 
-Rest API
+# Rest API
 
 install prisma: 
 - npm i prisma -D
@@ -47,3 +47,10 @@ employee
 - mulai dengan module dulu import modul       database nya.
 
 - di bagian controller employee ganti yang dto dengan prisma dari prisma/client cek aja di employee.controllernya untuk POST dan UPDATE.
+
+
+# Global Prefix
+
+- tambahkan setGlobalPrefix di main.ts
+
+THROTTLE untuk mengontrol request ke API yg dibatasi.
