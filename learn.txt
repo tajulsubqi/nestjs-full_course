@@ -54,3 +54,14 @@ employee
 - tambahkan setGlobalPrefix di main.ts
 
 THROTTLE untuk mengontrol request ke API yg dibatasi.
+
+
+# LOGGER
+
+Bikin module untuk LOGGER
+- nest g module my-logger
+- nest g service my-logger
+
+bikin file AllException.Filter.ts
+- import ke main.ts
+
